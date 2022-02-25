@@ -1,0 +1,98 @@
+body {
+  /* height: 300vh; */
+}
+
+.nav-item:hover {
+  border-bottom: 4px solid #00498d;
+}
+
+.img-slider {
+  height: 500px;
+  object-fit: cover;
+}
+
+.img-slider2 {
+  width: 100%;
+  height: 411px;
+  object-fit: cover;
+  margin-top: 25px;
+}
+
+/* .img-triangulo{
+    transform: rotate(140deg);
+    -webkit-transform: rotate(140deg);
+    -moz-transform: rotate(140deg);
+    -ms-transform: rotate(140deg);
+    -o-transform: rotate(140deg);
+    display: block;
+    margin: auto;
+} */
+
+.barragenerica {
+  margin-top: 50px;
+  width: 100%;
+  height: 120px;
+  background: #003459;
+  display: flex;
+  flex-direction: column;
+}
+
+.triangulo {
+  margin-left: auto;
+  margin-right: auto;
+  width: 0;
+  border-right: 50px solid transparent;
+  border-top: 50px solid transparent;
+  border-left: 50px solid transparent;
+  border-bottom: 50px solid #003459;
+  transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+}
+
+.h2Recomendacion {
+  background: #003459;
+  margin: 0px;
+  height: 100px;
+  color: #ffdf74;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.barraTriangulo2 {
+  transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+}
+
+.cuadroNoticas {
+}
+
+.noticiaCard {
+  width: 100%;
+  height: 130px;
+  
+}
+
+.listaAcercaUtesur{
+    height: 100%;
+    list-style: none;
+}
+
+
+.acercaDe{
+    background:url("/imgs/pang_yuhao__kd5cxwzok4_unsplash_1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    list-style: none;   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-weight: 800;
+    color: rgb(0, 0, 0);
+}
