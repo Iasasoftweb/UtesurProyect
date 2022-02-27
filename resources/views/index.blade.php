@@ -1,17 +1,18 @@
 @extends('layouts.template')
 
-@extends('layouts.topbar')
 
-<body class="antialiased">
-     
-    <section class="top-0">
-           
-           @yield('content')
-        
-   </section>
+@section('content')
+@include('layouts.topbar')
+Que vaina
+
+@endsection
+
+
+
+
+
+ 
 
       
-     
-</body>
+  
 
-@extends('layouts.footer')

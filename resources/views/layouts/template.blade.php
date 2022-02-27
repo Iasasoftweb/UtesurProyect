@@ -26,3 +26,12 @@
         
      </head>
 
+     <body>
+     <section class="top-0">
+           
+           @yield('content')
+        
+      </section>
+     </body>
+
+     </html>
