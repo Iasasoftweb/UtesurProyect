@@ -1,33 +1,76 @@
+ <div class="top-bar  bg-dark">
 
-<div style ="background-color: #1897EB; height: 40px;">
-    <div class ="container d-flex justify-content-between">
-         <row  class="p-2">
-          <a href="tel:+18095213785" id="TextBar01" class="d-flex align-items-center"><i class="fa-solid fa-phone youricons"></i> Tel: 809-521-3785</a>
-         </row>
-         
-         
-  
-         <div class="d-flex justify-content-around align-items-center" style="width :250px" > 
-       
-          <a href="#" id="TextBar01"><i class="fa-solid fa-user myicons"></i> Contactos </a> 
-          <a href=""><i class="d-block fa-brands fa-facebook-f myicons"></i></a>
-          <a href=""><i class="d-block fa-brands fa-instagram myicons"></i></a>
-          <a href=""><i class="d-block fa-brands fa-youtube myicons"></i></a>
-       
-          
-          <div id="HightliteText" class="d-flex align-items-center justify-content-center" >
-               <a href="" style="text-decoration: none; color :white;" class="d-block"> Acceso </a>
+     <div class="container">
+          <div class="row align-items-end align-items-center">
+               <div class="col d-none d-lg-block">
+                    <div class="form-row align-items-center">
+                         <div class="col-auto"><span class="fa fa-phone"></span></div>
+                         <div class="col"><strong>Llámanos</strong> al <a href="tel:+18095213785"
+                                   title="Llámanos"><strong>809-521-3785</strong></a></div>
+                    </div>
+               </div>
+               <div class="col-auto d-none d-lg-block">
+                    <ul class="nav topbar">
+                         <li class="nav-item">
+                              <a href="{{url('./')}}" class="nav-link home" title="Inicio">Inicio</a>
+                         </li>
+
+                         <li class="nav-item">
+                              <a href="{{url('./estudiantes')}}" class="nav-link univertsity"
+                                   title="Universidad <b>UTESUR</b>">Estudiantes</a>
+                         </li>
+
+                         <li class="nav-item">
+                              <a href="{{url('./docentes')}}" class="nav-link univertsity"
+                                   title="Universidad <b>UTESUR</b>">Docentes</a>
+                         </li>
+
+                         <li class="nav-item">
+                              <a href="http://utesurvirtual.com" class="nav-link univertsity"
+                                   title="Universidad <b>UTESUR</b>"><b>UTESUR</b> Virtual</a>
+                         </li>
+
+
+                         <li class="nav-item">
+                              <a href="estudiantes-y-postulantes/" class="nav-link admission-form"
+                                   title="Solicitud de admisión">Solicitud de admisión</a>
+                         </li>
+
+                        
+
+                    </ul>
+               </div>
+
+
+               <div class="col     btn-hidden " >
+
+                    <li class="btn-hidden d-inline ">
+                         <button class="btn btn-success" > <a href="{{url('./estudiantes')}}" class=""
+                         title="Acceso a estudiantes">Acceso a  <strong> Estudiantes </strong> </a> </button>
+                    </li>
+
+                    <li class=" btn-hidden d-inline  ">
+                         <button class="btn btn-warning" > <a href="{{url('./docentes')}}" class=""
+                         title="Acceso a estudiantes">Acceso a  <strong>Docentes</strong> </a> </button>
+                    </li>
+
+
+               </div>
+
+
           </div>
-        </div>
-        
-       
-    </div>
- </div>
-<div class="row">
-  <div class="col">
-    Column
-  </div>
-  <div class="col">
-    
-  </div>
+     </div>
 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+{{-- @include('layouts.navman') --}}

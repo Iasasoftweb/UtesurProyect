@@ -1,8 +1,10 @@
 <?php
 
 namespace App\Providers;
-
+use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\ServiceProvider;
+use Illuminate\Pagination\Paginator;
+use Carbon\Carbon;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -23,6 +25,18 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+       Carbon::setLocale('es');
+       setlocale(LC_TIME, 'es_ES');
+       Carbon::setUtf8(true);
+       Paginator::useBootstrap();
+
+       Blade::directive('nl2br', function ($string) {
+        return "<?php echo nl2br($string); ?>"; }); 
+
+       
+       
     }
+
+       
 }
+

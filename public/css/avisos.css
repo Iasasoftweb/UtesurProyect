@@ -1,0 +1,414 @@
+.menu-box-content {
+    display: block;
+    width: 100%;
+    max-width: 100% !important;
+   
+    margin-top: 0
+}
+
+
+.lineaDivisoraaviso{
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+
+.lineaDivisoraaviso h3{
+    flex: 1;
+}
+
+
+.lineaDivisoraaviso1{
+    border-bottom: 4px solid rgb(85, 175, 12)  !important;
+}
+
+.lineaDivisoraaviso2{
+    border-bottom: 4px solid  rgb(255,103,91) !important;
+}
+
+.lineaDivisoraaviso3{
+    border-bottom: 4px solid rgb(255,153,0)  !important;
+}
+
+.menu-box {
+    
+    width: 100%;
+    
+    margin: 0 auto;
+    /* position: absolute;
+    z-index: 2; */
+    right: 0;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: -122px
+}
+
+.btn-grouppersonalizado{
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) ;
+    gap: 10px;
+    grid-template-areas: "elementoaviso1 elementoaviso2 elementoaviso3 ";
+}
+
+.elemtoaviso1{
+    grid-area: elementoaviso1 ;
+}    
+
+
+.elemtoaviso2{
+    grid-area: elementoaviso2 ;
+}    
+
+.elemtoaviso{
+    grid-area: elementoaviso3 ;
+}    
+
+
+
+
+
+.menu-box .btn-grouppersonalizado {
+    width: 100%;
+    /* max-height: 175px; */
+    min-height: 175px;
+
+}
+                                                          
+.menu-box .btn-grouppersonalizado a h3 {
+    margin-bottom: .2rem;
+    color: #fff;
+    font-weight: 600;
+    line-height: 1.2;
+    font-size: 1rem;
+    text-transform: uppercase;
+    text-align: center
+}
+
+.menu-box .btn-grouppersonalizado a label,
+.menu-box .btn-grouppersonalizado a p {
+    color: #fff
+}
+
+.menu-box .btn-grouppersonalizado a p {
+    font-size: .9rem;
+    line-height: 1rem;
+    opacity: .9;
+    text-align: center
+}
+
+.display-grid {
+    display: grid !important
+}
+
+.menu-box .btn-grouppersonalizado a .btn-text hr {
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    border: 0;
+    border-top: 4px solid rgb(255 255 255/90%)
+}
+
+.menu-box .btn-grouppersonalizado a .btn-text {
+    padding: .2rem;
+    border-bottom: 4px solid rgb(255 255 255/90%)
+}
+
+.menu-box .btn-grouppersonalizado a {
+    background-color: #0864a6;
+    border: none !important
+}
+
+
+
+.menu-box .btn-grouppersonalizado a:hover {
+    background-color: #023877;
+    border: none !important
+}
+
+.menu-box .btn-grouppersonalizado a:nth-child(2) {
+    background-color: #034f9a
+}
+
+.menu-box .btn-grouppersonalizado a:nth-child(2):hover {
+    background-color: #023877
+}
+
+.menu-box.plataforma {
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+    bottom: 0;
+    padding: 10px
+}
+
+
+
+@media(min-width:700px) and (max-width:925px) {
+    .menu-box .btn-grouppersonalizado {
+        display: flex
+    }
+
+    .menu-box .btn-grouppersonalizado a {
+        width: 100%
+    }
+
+    .menu-box.plataforma .btn-grouppersonalizado a {
+        width: 40%
+    }
+
+    .menu-box .btn-grouppersonalizado a .btn-text h3 {
+        font-size: .9rem !important
+    }
+
+    .menu-box .btn-grouppersonalizado .display-grid {
+        display: block !important
+    }
+
+    .menu-box {
+        bottom: -144px !important
+    }
+
+    .menu-box.plataforma {
+        bottom: 0 !important
+    }
+
+    .menu-box .btn-grouppersonalizado {
+        height: auto
+    }
+
+    .elementor-element .pr-infobox {
+        padding: 25px 18px
+    }
+}
+
+@media(min-width:700px) and (max-width:766px) {
+    .menu-box {
+        bottom: -45px !important
+    }
+}
+
+
+
+@media(max-width:899px) {
+
+    .menu-box {
+        width: 90%
+    }
+}
+
+
+
+
+
+
+@media(min-width:481px) and (max-width:767px) {
+    
+    .btn-grouppersonalizado{
+        display: grid !important;
+        grid-template-columns: 1fr !important;
+        grid-template-rows: repeat(3, 1fr) !important;
+        gap: 10px;
+        grid-template-areas: "elementoaviso1"
+        "elementoaviso2" 
+        "elementoaviso3 ";
+    }
+
+    .elementoAviso a p {
+        padding-left: 15%;
+    }
+
+
+    .menu-box {
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+        /* position: absolute; */
+        z-index: 2;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        bottom: -170px;
+        padding: 10px
+    }
+
+    .menu-box.plataforma {
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+        position: relative;
+        bottom: 0;
+        padding: 10px
+    }
+
+    .btn-grouppersonalizado,
+    .btn-grouppersonalizado-vertical {
+        display: block;
+        display: block
+    }
+
+    .menu-box .btn-grouppersonalizado a {
+        width: 100%;
+        padding: 10px 16px;
+        margin: 2px;
+        height: 86px !important;
+        max-height: 86px !important
+    }
+
+    .btn-text {
+        display: block
+    }
+
+    .btn-text img {
+        float: left
+    }
+
+    .btn-text p {
+        float: left;
+        width: 80%
+    }
+
+    .lineaDivisoraaviso1{
+        border-bottom: 2px solid rgb(85, 175, 12)  !important;
+    }
+    
+    .lineaDivisoraaviso2{
+        border-bottom: 2px solid  rgb(255,103,91) !important;
+    }
+    
+    .lineaDivisoraaviso3{
+        border-bottom: 2px solid rgb(255,153,0)  !important;
+    }
+    
+
+    .menu-box .btn-grouppersonalizado a .btn-text img {
+        width: 36px !important;
+        margin-right: .4rem !important;
+        margin: 0 6px 0 0 !important;
+        height: 36px
+    }
+
+    .menu-box .btn-grouppersonalizado a .btn-text h3 {
+        text-align: left !important;
+        font-size: .9rem;
+        max-width: 80%;
+        margin-top: 1% !important
+    }
+
+    .menu-box .btn-grouppersonalizado a p {
+        font-size: .7rem;
+        line-height: 1rem;
+        opacity: .9;
+        text-align: left;
+        margin-top: .2rem !important
+    }
+
+
+}
+
+@media screen and (max-width:480px) {
+    
+    .btn-grouppersonalizado{
+        display: grid !important;
+        grid-template-columns: 1fr !important;
+        grid-template-rows: repeat(3, 1fr) !important;
+        gap: 10px;
+        grid-template-areas: "elementoaviso1"
+        "elementoaviso2" 
+        "elementoaviso3 ";
+    }
+    
+    .menu-box .btn-grouppersonalizado a .btn-text img {
+        width: 36px !important;
+        margin-right: .4rem !important;
+        
+        height: 36px
+    }
+
+    .menu-box {
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+        /* position: absolute; */
+        z-index: 2;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        bottom: -170px;
+        padding: 10px
+    }
+
+    .menu-box.plataforma {
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+        position: relative;
+        bottom: 0;
+        padding: 10px
+    }
+
+    .btn-grouppersonalizado,
+    .btn-grouppersonalizado-vertical {
+        display: block;
+        display: block
+    }
+
+    .menu-box .btn-grouppersonalizado a {
+        width: 100%;
+        padding: 10px 16px;
+        margin: 1px;
+        height: 86px !important;
+        max-height: 86px !important
+    }
+
+    .btn-text {
+        display: block
+    }
+
+    .btn-text img {
+        float: left
+    }
+
+    .btn-text p {
+        float: left;
+        width: 80%
+    }
+
+    .lineaDivisoraaviso1{
+        border-bottom: 2px solid rgb(85, 175, 12)  !important;
+    }
+    
+    .lineaDivisoraaviso2{
+        border-bottom: 2px solid  rgb(255,103,91) !important;
+    }
+    
+    .lineaDivisoraaviso3{
+        border-bottom: 2px solid rgb(255,153,0)  !important;
+    }
+    
+
+    .menu-box .btn-grouppersonalizado a .btn-text img {
+        width: 36px !important;
+        margin-right: .4rem !important;
+        height: 36px
+    }
+
+    .menu-box .btn-grouppersonalizado a .btn-text h3 {
+        text-align: left !important;
+        font-size: 1rem;
+        max-width: 80%;
+        margin-top: 1% !important
+    }
+
+    .menu-box .btn-grouppersonalizado a p {
+        font-size: .7rem;
+        line-height: 1rem;
+        opacity: .9;
+        text-align: left;
+        margin-top: .2rem !important
+    }
+
+}
+

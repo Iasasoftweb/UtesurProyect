@@ -1,0 +1,1656 @@
+/*.cintillo-covid{display:flex;justify-content:center;align-items:center;position:absolute;top:0;left:0;width:100%;min-height:90px;z-index:9999;background-color:#111;border-bottom:1px solid #e32726;color:#a4a4a4;text-align:center}.cintillo-covid p{margin:0;font-size:13px}.cintillo-covid strong{font-size:13px;background-color:#e32726;color:#fff;padding:0 5px;margin:0 7px}.cintillo-covid a{color:#a4a4a4;text-decoration:underline}.cabecera{top:90px}@media(min-width:576px){.cintillo-covid{min-height:60px}.cabecera{top:60px}}@media(min-width:992px){.cintillo-covid p{position:relative;display:inline;line-height:42px;font-size:15px;padding-left:50px}.cintillo-covid span{position:absolute;top:-10px;left:0;display:inline-block;width:42px;height:42px;background:url(https://unapec.edu.do/media/4203/icn-corona.png) no-repeat 50%}}*/
+
+.secBanner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    min-height: 450px;
+    background: #0058a6 url(https://unapec.edu.do/media/1402/bg-intro.jpg) no-repeat;
+    background-size: cover
+}
+
+.secBanner .imagen,
+.secBanner video {
+    display: none
+}
+
+.bloqueOfertas,
+.secBanner .container-fluid {
+    height: 100%
+}
+
+.bloqueOfertas {
+    z-index: 999;
+    height: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-bottom: 30px
+}
+
+.bloqueOfertas,
+.eslogan {
+    position: relative;
+    display: flex
+}
+
+.eslogan {
+    min-height: 100px;
+    color: #fff;
+    font-size: 55px;
+    text-transform: uppercase;
+    font-family: Roboto;
+    font-weight: 100;
+    margin-top: auto
+}
+
+.eslogan p {
+    padding: 0;
+    z-index: 1;
+    margin: 0 0 8px -3px;
+    line-height: .8em
+}
+
+.eslogan em {
+    font-family: Roboto;
+    font-weight: 500;
+    color: #e32726;
+    font-style: normal
+}
+
+.eslogan span.break {
+    display: block
+}
+
+.eslogan div {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    background: #2d3740;
+    z-index: 0
+}
+
+.ofertas {
+    margin-top: auto;
+    display: flex;
+    flex-wrap: wrap;
+    background: url(https://unapec.edu.do/media/1436/semi-borde-lateral.png) no-repeat 0 40px, url(https://unapec.edu.do/media/1435/semi-borde-inferior.png) no-repeat 100% 100%;
+    padding: 0 0 6px 6px;
+    margin-left: -6px
+}
+
+.ofertas .item {
+    display: flex;
+    width: 45%;
+    height: 144px;
+    background-color: #555;
+    border: 2px solid #fff;
+    margin-right: 10px;
+    font-family: Roboto;
+    font-weight: 900;
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: #fff;
+    text-transform: uppercase;
+    vertical-align: bottom
+}
+
+.ofertas .item a {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    text-decoration: none
+}
+
+.ofertas .item a>span {
+    width: 100%;
+    height: 45%;
+    align-self: flex-end;
+    line-height: 1.2em;
+    padding: 15% 15px 15px;
+    background: -moz-linear-gradient(top, rgba(26, 32, 37, 0) 0, rgba(26, 32, 37, .07) 3%, rgba(26, 32, 37, .14) 6%, rgba(26, 32, 37, .21) 9%, rgba(26, 32, 37, .28) 12%, rgba(26, 32, 37, .35) 15%, rgba(26, 32, 37, .42) 18%, rgba(26, 32, 37, .49) 21%, rgba(26, 32, 37, .56) 24%, rgba(26, 32, 37, .63) 27%, rgba(26, 32, 37, .7) 30%, rgba(26, 32, 37, .77) 33%, rgba(26, 32, 37, .84) 36%, rgba(26, 32, 37, .91) 42%, #1a2025 68%, #1a2025 100%);
+    background: -webkit-linear-gradient(top, rgba(26, 32, 37, 0), rgba(26, 32, 37, .07) 3%, rgba(26, 32, 37, .14) 6%, rgba(26, 32, 37, .21) 9%, rgba(26, 32, 37, .28) 12%, rgba(26, 32, 37, .35) 15%, rgba(26, 32, 37, .42) 18%, rgba(26, 32, 37, .49) 21%, rgba(26, 32, 37, .56) 24%, rgba(26, 32, 37, .63) 27%, rgba(26, 32, 37, .7) 30%, rgba(26, 32, 37, .77) 33%, rgba(26, 32, 37, .84) 36%, rgba(26, 32, 37, .91) 42%, #1a2025 68%, #1a2025);
+    background: linear-gradient(180deg, rgba(26, 32, 37, 0) 0, rgba(26, 32, 37, .07) 3%, rgba(26, 32, 37, .14) 6%, rgba(26, 32, 37, .21) 9%, rgba(26, 32, 37, .28) 12%, rgba(26, 32, 37, .35) 15%, rgba(26, 32, 37, .42) 18%, rgba(26, 32, 37, .49) 21%, rgba(26, 32, 37, .56) 24%, rgba(26, 32, 37, .63) 27%, rgba(26, 32, 37, .7) 30%, rgba(26, 32, 37, .77) 33%, rgba(26, 32, 37, .84) 36%, rgba(26, 32, 37, .91) 42%, #1a2025 68%, #1a2025)
+}
+
+.ofertas .item.eventos {
+    background: #222 url(https://unapec.edu.do/media/4341/img-eventos.jpg) no-repeat top;
+    background-size: 100%
+}
+
+.ofertas .item span span {
+    font-weight: 100;
+    display: block;
+    padding: 0
+}
+
+.ofertas .item.grad-pos {
+    background: #222 url(https://unapec.edu.do/media/1449/img-grad-pos.jpg) no-repeat top;
+    background-size: 100%
+}
+
+.ofertas .item.idiomas {
+    background: #222 url(https://unapec.edu.do/media/1450/img-idiomas.jpg) no-repeat top;
+    background-size: 100%
+}
+
+.ofertas .item.formacion-cont {
+    background: #222 url(https://unapec.edu.do/media/1448/img-formacion-cont.jpg) no-repeat top;
+    background-size: 100%
+}
+
+.ofertas .item.m-online {
+    background: #222 url(https://unapec.edu.do/media/4719/img-maestrias-online-v2.jpg) no-repeat top;
+    background-size: 100%
+}
+
+@media(min-width:992px) {
+    .secBanner {
+        overflow: hidden;
+        background: 0 0
+    }
+    .secBanner .tira {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 160px;
+        background: #dbdde2;
+        z-index: 3
+    }
+    .secBanner video {
+        top: -130px;
+        z-index: 2
+    }
+    .secBanner .imagen,
+    .secBanner video {
+        position: absolute;
+        left: 0;
+        width: 100%;
+        display: block
+    }
+    .secBanner .imagen {
+        top: 0;
+        height: 100%;
+        z-index: 1
+    }
+    .secBanner .imagen img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: block;
+        width: 100%
+    }
+    .bloqueOfertas {
+        padding-bottom: 50px
+    }
+    .eslogan {
+        margin-top: auto;
+        font-size: 75px
+    }
+    .eslogan p {
+        margin: 0 0 0 -9px
+    }
+    .eslogan span.break {
+        display: inline
+    }
+    .eslogan div {
+        height: 70%
+    }
+    .ofertas .item {
+        width: 175px;
+        height: 175px;
+        margin-right: 20px;
+        font-size: 14px;
+        letter-spacing: normal
+    }
+}
+
+@media(min-width:1440px) {
+    .eslogan {
+        font-size: 95px
+    }
+    .ofertas .item {
+        width: 225px;
+        height: 225px;
+        font-size: 20px
+    }
+}
+
+.secConocenos {
+    position: relative;
+    padding-top: 60px;
+    font-weight: 600;
+    line-height: 1.2em
+}
+
+.secConocenos .row {
+    width: 100%;
+    z-index: 999
+}
+
+.secConocenos a {
+    color: #fff;
+    text-decoration: none
+}
+
+.secConocenos .sombraFondo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60%;
+    z-index: 0;
+    background-color: #eaedf1
+}
+
+.bloqueAplicar {
+    min-height: 300px
+}
+
+.item-aplicar {
+    height: 50%;
+    font-weight: 300
+}
+
+.item-aplicar a {
+    line-height: 1.2em
+}
+
+.item-aplicar a span {
+    padding-top: 45px;
+    background: url(https://unapec.edu.do/media/1390/icn-aplicar.png) top no-repeat;
+    background-size: auto 32px
+}
+
+.item-aplicar h2 {
+    font-size: 18px;
+    font-weight: 700
+}
+
+.item-puertas-abiertas {
+    height: 50%;
+    background: url(https://unapec.edu.do/media/1523/img-puestas-abiertas.jpg) 100%
+}
+
+.item-puertas-abiertas a {
+    width: 40%;
+    padding: 15px;
+    text-align: center;
+    color: #fff;
+    font-size: 11px
+}
+
+@media(max-width:768px) {
+    .secConocenos .carousel-control-next,
+    .secConocenos .carousel-control-prev {
+        min-width: 50px;
+        max-height: 50px;
+        background: #000;
+        margin-top: 50%;
+        position: absolute
+    }
+}
+
+#carruselHistorias,
+#carruselHistorias .carousel-item {
+    height: 100%
+}
+
+#carruselHistorias img {
+    position: absolute;
+    z-index: 1
+}
+
+.bloqueHistorias {
+    min-height: 450px;
+    font-size: 11px;
+    overflow: hidden
+}
+
+.bloqueHistorias div.botones {
+    height: 25%
+}
+
+.bloqueHistorias .costos span {
+    padding-top: 40px;
+    background: url(https://unapec.edu.do/media/1391/icn-costos.png) top no-repeat;
+    background-size: auto 35px
+}
+
+.bloqueHistorias .servicios span {
+    padding-top: 40px;
+    background: url(https://unapec.edu.do/media/1393/icn-servicios.png) top no-repeat;
+    background-size: auto 35px
+}
+
+.bloqueHistorias .recursos span {
+    padding-top: 50px;
+    background: url(https://unapec.edu.do/media/1392/icn-recursos.png) top no-repeat;
+    background-size: auto 43px
+}
+
+.bloqueHistorias .carousel .degradado {
+    z-index: 1;
+    background: rgba(2, 38, 70, 0);
+    background: -moz-linear-gradient(top, rgba(2, 38, 70, 0) 0, rgba(2, 38, 70, 0) 46%, rgba(2, 38, 70, .36) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0, rgba(2, 38, 70, 0)), color-stop(46%, rgba(2, 38, 70, 0)), color-stop(100%, rgba(2, 38, 70, .36)));
+    background: -webkit-linear-gradient(top, rgba(2, 38, 70, 0), rgba(2, 38, 70, 0) 46%, rgba(2, 38, 70, .36));
+    background: -o-linear-gradient(top, rgba(2, 38, 70, 0) 0, rgba(2, 38, 70, 0) 46%, rgba(2, 38, 70, .36) 100%);
+    background: -ms-linear-gradient(top, rgba(2, 38, 70, 0) 0, rgba(2, 38, 70, 0) 46%, rgba(2, 38, 70, .36) 100%);
+    background: linear-gradient(180deg, rgba(2, 38, 70, 0) 0, rgba(2, 38, 70, 0) 46%, rgba(2, 38, 70, .36))
+}
+
+.bloqueHistorias .carousel .degradado,
+span.espejo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%
+}
+
+span.espejo {
+    background-color: #000;
+    background-position: 50%;
+    background-size: cover;
+    z-index: 2
+}
+
+.btn-historia {
+    position: absolute;
+    width: 70%;
+    bottom: 10%;
+    left: 50%;
+    margin-left: -35%;
+    border: 2px solid #fff;
+    padding: 15px;
+    z-index: 999;
+    font-size: 17px;
+    background: rgba(2, 63, 117, .3);
+    text-align: center;
+    margin-bottom: 30px
+}
+
+.bloqueHistorias .carousel-item {
+    height: 100%
+}
+
+.bloqueStartups {
+    min-height: 280px;
+    font-size: 11px;
+    padding-bottom: 70px
+}
+
+.bloqueStartups .row:first-child {
+    height: 45%
+}
+
+.bloqueStartups .row+.row {
+    height: 55%
+}
+
+.bloqueStartups .carousel-item img {
+    overflow: hidden;
+    height: 251px
+}
+
+.bloqueStartups .carousel .degradado {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    background: rgba(2, 38, 70, .3)
+}
+
+.bloqueStartups a.btnCarrusel {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 999;
+    padding: 15px
+}
+
+.bloqueStartups .carousel-indicators {
+    right: auto;
+    margin-left: 8%
+}
+
+.bloqueStartups .carousel-indicators .active {
+    background-color: #e32726
+}
+
+.bloqueStartups .scholas img {
+    width: 130px;
+    height: 50px
+}
+
+@media(min-width:992px) {
+    .secConocenos {
+        padding-top: 100px
+    }
+    .secConocenos .row {
+        flex-direction: row
+    }
+    .item-aplicar {
+        height: 60%
+    }
+    .item-aplicar a span {
+        padding-top: 85px;
+        background-size: auto 64px
+    }
+    .item-aplicar h2 {
+        font-size: 20px;
+        font-weight: 700
+    }
+    .item-puertas-abiertas {
+        height: 40%
+    }
+    .item-puertas-abiertas a {
+        width: 55%;
+        padding: 15px;
+        font-size: 18px
+    }
+    .bloqueHistorias {
+        min-height: 455px;
+        font-size: 16px
+    }
+    .bloqueHistorias .costos span,
+    .bloqueHistorias .servicios span {
+        padding-top: 55px;
+        background-size: auto 44px
+    }
+    .bloqueHistorias .recursos span {
+        padding-top: 75px;
+        background-size: auto 63px
+    }
+    .bloqueStartups {
+        min-height: 455px;
+        font-size: 18px;
+        padding-bottom: 0
+    }
+    .bloqueStartups a.btnCarrusel {
+        padding: 30px
+    }
+}
+
+.secAvisosMovil {
+    position: relative;
+    padding: 70px 0 0;
+    margin-bottom: 70px;
+    overflow: hidden
+}
+
+.secAvisosMovil .relleno {
+    padding: 0
+}
+
+.secAvisosMovil h2.encab {
+    font-size: 28px;
+    margin: 0 0 20px 15px;
+    text-transform: uppercase
+}
+
+.secAvisosMovil .wprAvisosImp {
+    width: 100%;
+    margin-bottom: 6px;
+    height: 400px
+}
+
+.secAvisosMovil .wprAvisosImp .imagen {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 100%;
+    height: 100%;
+    background: url(https://unapec.edu.do/media/1412/avisosimp.jpg) top
+}
+
+.secAvisosMovil .wprAvisosImp .avisosImp {
+    position: relative;
+    width: 85%;
+    min-height: 50%;
+    align-self: flex-end;
+    margin: 0;
+    padding: 0 25px;
+    background-color: #e32726
+}
+
+.secAvisosMovil .wprAvisosImp #carruselAvisosImp-movil.carousel {
+    position: static
+}
+
+.secAvisosMovil .wprAvisosImp ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 14px
+}
+
+.secAvisosMovil .wprAvisosImp ul li {
+    border-bottom: 1px solid #e65554
+}
+
+.secAvisosMovil .wprAvisosImp a {
+    display: inline-block;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 14px 0
+}
+
+.secAvisosMovil .carousel-indicators {
+    position: absolute;
+    bottom: 15px;
+    margin: 0;
+    z-index: 999
+}
+
+.secAvisosMovil .wprAvisosImp .lista li {
+    margin-bottom: 5px
+}
+
+.secAvisosMovil .wprAvisosImp a {
+    color: #fff
+}
+
+.secAvisosMovil .carrusel {
+    position: relative;
+    padding-bottom: 50px;
+    background: #143d68
+}
+
+.secAvisosMovil .rs-carousel-action-next,
+.secAvisosMovil .rs-carousel-action-prev {
+    position: absolute;
+    bottom: 0;
+    margin-top: -38px;
+    display: block;
+    width: 50px;
+    height: 50px;
+    text-indent: -2000px;
+    overflow: hidden;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, .7);
+    opacity: .3
+}
+
+.secAvisosMovil .rs-carousel-action-prev {
+    right: 51px;
+    background-image: url(https://unapec.edu.do/media/1407/flecha-carrusel-anterior.png)
+}
+
+.secAvisosMovil .rs-carousel-action-next {
+    right: 0;
+    background-image: url(https://unapec.edu.do/media/1408/flecha-carrusel-siguiente.png)
+}
+
+.secAvisosMovil .rs-carousel-action-active {
+    opacity: 1
+}
+
+.secAvisosMovil .avisoOferAcad {
+    min-height: 130px;
+    background-color: #023f75;
+    display: flex;
+    flex-direction: column
+}
+
+.secAvisosMovil .avisoOferAcad .info {
+    height: 50%;
+    padding: 15px
+}
+
+.secAvisosMovil .avisoOferAcad .tipo {
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #dde4ef;
+    margin: 0 0 5px
+}
+
+.secAvisosMovil .avisoOferAcad .nombre {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0 0 10px
+}
+
+.secAvisosMovil .avisoOferAcad a {
+    color: #fff
+}
+
+.secAvisosMovil .avisoOferAcad .detalles {
+    font-size: 12px;
+    font-weight: 600;
+    color: #dde4ef;
+    line-height: 1.2em;
+    margin: 0
+}
+
+.secAvisosMovil .avisoOferAcad .imagen {
+    position: relative;
+    width: 100%;
+    height: 50%;
+    overflow: hidden
+}
+
+.secAvisosMovil .avisoOferAcad .flecha {
+    position: absolute;
+    left: 50%;
+    margin-left: -7px;
+    display: block;
+    width: 30px;
+    height: 15px;
+    background: url(https://unapec.edu.do/media/1413/flecha-abajo.png) no-repeat 50%
+}
+
+.secAvisosMovil .avisoOferAcad:nth-child(odd) {
+    background-color: #0058a6
+}
+
+.secAvisosMovil .avisoOferAcad:nth-child(odd) .flecha {
+    bottom: 0!important;
+    background-image: url(https://unapec.edu.do/media/1414/flecha-arriba.png)
+}
+
+.secAvisosMovil .avisoOferAcad:nth-child(odd) .info {
+    order: 1
+}
+
+.secAvisos {
+    display: none
+}
+
+@media(min-width:992px) {
+    .secAvisosMovil {
+        display: none
+    }
+    .secAvisos {
+        display: block;
+        position: relative;
+        padding: 118px 0;
+        overflow: hidden;
+        border-bottom: 6px solid #fff
+    }
+    .secAvisos .sombraFondo {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 50%;
+        background: #eaedf1;
+        z-index: 0
+    }
+    .secAvisos .container-fluid {
+        position: relative;
+        z-index: 999
+    }
+    .secAvisos .correaCarrusel {
+        height: 500px
+    }
+    .secAvisos .rs-carousel-action-next,
+    .secAvisos .rs-carousel-action-prev {
+        position: absolute;
+        top: 50%;
+        margin-top: -38px;
+        width: 75px;
+        height: 75px;
+        text-indent: -2000px;
+        overflow: hidden;
+        background-position: 50%;
+        background-repeat: no-repeat;
+        background-color: rgba(0, 0, 0, .7)
+    }
+    .secAvisos .rs-carousel-action-prev {
+        left: 0;
+        background-image: url(https://unapec.edu.do/media/1407/flecha-carrusel-anterior.png)
+    }
+    .secAvisos .rs-carousel-action-next {
+        right: 0;
+        background-image: url(https://unapec.edu.do/media/1408/flecha-carrusel-siguiente.png)
+    }
+    .secAvisos .wprAvisosImp {
+        width: 560px;
+        height: 500px;
+        padding-right: 6px
+    }
+    .wprAvisosImp .imagen {
+        position: relative;
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+        height: 100%;
+        background: url(https://unapec.edu.do/media/1412/avisosimp.jpg) top
+    }
+    .avisosImp h2.encab {
+        position: absolute;
+        top: -22px;
+        left: 5px;
+        color: #fff;
+        font-size: 30px;
+        text-transform: uppercase
+    }
+    .wprAvisosImp .lista {
+        width: 75%;
+        min-height: 50%;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        margin: 0;
+        padding: 45px 39px;
+        list-style: none
+    }
+    .wprAvisosImp .lista li {
+        margin-bottom: 7px
+    }
+    .wprAvisosImp a {
+        font-size: 17px
+    }
+    .wprAvisosImp .avisosImp {
+        position: relative;
+        width: 75%;
+        min-height: 50%;
+        align-self: flex-end;
+        margin: 0;
+        background-color: #e32726
+    }
+    .wprAvisosImp #carruselAvisosImp {
+        padding: 45px 25px
+    }
+    .wprAvisosImp #carruselAvisosImp.carousel {
+        position: static
+    }
+    .wprAvisosImp ul {
+        margin: 0;
+        padding: 0;
+        list-style: none
+    }
+    .wprAvisosImp ul li {
+        margin-bottom: 9px;
+        line-height: 120%;
+        padding-left: 23px;
+        background: url(https://unapec.edu.do/media/1721/icn-link.png) left 5px no-repeat
+    }
+    .wprAvisosImp a {
+        color: #fff;
+        font-weight: 600;
+        font-size: 14px
+    }
+    .carousel-indicators {
+        position: absolute;
+        bottom: 15px;
+        margin: 0;
+        z-index: 999
+    }
+    .secAvisos .avisoOferAcad {
+        width: 412px;
+        height: 100%;
+        background-color: #0058a6;
+        display: flex;
+        flex-direction: column
+    }
+    .avisoOferAcad .info {
+        width: 100%;
+        height: 50%;
+        padding: 25px 39px
+    }
+    .avisoOferAcad .tipo {
+        font-size: 16px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #dde4ef;
+        margin: 0 0 10px
+    }
+    .avisoOferAcad .nombre {
+        font-size: 26px;
+        font-weight: 600;
+        margin: 0 0 20px
+    }
+    .avisoOferAcad a {
+        color: #fff
+    }
+    .avisoOferAcad .detalles {
+        font-size: 15px;
+        font-weight: 600;
+        color: #dde4ef;
+        line-height: 1.2em
+    }
+    .avisoOferAcad .imagen {
+        position: relative;
+        width: 100%;
+        height: 50%;
+        overflow: hidden
+    }
+    .avisoOferAcad .flecha {
+        position: absolute;
+        left: 50%;
+        margin-left: -7px;
+        display: block;
+        width: 30px;
+        height: 15px;
+        background: url(https://unapec.edu.do/media/1413/flecha-abajo.png) no-repeat 50%
+    }
+    .avisoOferAcad .vacio {
+        width: 100%;
+        height: 100%;
+        background: url("https://unapec.edu.do/media/4772/bg-aviso-vacio-1.png")no-repeat center bottom;
+        opacity: .05;
+    }
+    .avisoOferAcad:nth-child(odd) .vacio {
+        background: url("https://unapec.edu.do/media/4773/bg-aviso-vacio-2.png") no-repeat center top;
+    }
+    .secAvisos .avisoOferAcad:nth-child(odd) {
+        background-color: #023f75
+    }
+    .avisoOferAcad:nth-child(odd) .flecha {
+        bottom: 0!important;
+        background-image: url(https://unapec.edu.do/media/1414/flecha-arriba.png)
+    }
+    .avisoOferAcad:nth-child(odd) .info {
+        order: 1
+    }
+}
+
+#carruselAvisosImp .carousel-indicators,
+#carruselAvisosImp-movil .carousel-indicators {
+    position: absolute;
+    bottom: 10px;
+    right: 80px;
+    left: auto;
+    display: inline;
+    margin: 0;
+    z-index: 999
+}
+
+#carruselAvisosImp .carousel-indicators li,
+#carruselAvisosImp-movil .carousel-indicators li {
+    display: inline;
+    background: 0 0;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700
+}
+
+#carruselAvisosImp .carousel-indicators li.active,
+#carruselAvisosImp-movil .carousel-indicators li.active {
+    font-size: 22px
+}
+
+#carruselAvisosImp .carousel-control-next,
+#carruselAvisosImp .carousel-control-prev,
+#carruselAvisosImp-movil .carousel-control-next,
+#carruselAvisosImp-movil .carousel-control-prev {
+    position: absolute;
+    top: auto;
+    bottom: 12px;
+    right: 15px;
+    left: auto;
+    width: 30px;
+    height: 22px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: auto;
+    color: #fff;
+    text-align: center;
+    opacity: 1
+}
+
+#carruselAvisosImp .carousel-control-next-icon,
+#carruselAvisosImp .carousel-control-prev-icon,
+#carruselAvisosImp-movil .carousel-control-next-icon,
+#carruselAvisosImp-movil .carousel-control-prev-icon {
+    display: inline-block;
+    width: 15px;
+    height: 20px;
+    background-size: 100% 100%
+}
+
+#carruselAvisosImp .carousel-control-prev,
+#carruselAvisosImp-movil .carousel-control-prev {
+    right: 51px
+}
+
+#carruselAvisosImp-movil .carousel-control-next,
+#carruselAvisosImp-movil .carousel-control-prev {
+    min-width: 50px;
+    min-height: 50px;
+    background: rgba(0, 0, 0, .8);
+    top: -50px;
+    right: 51px;
+    bottom: auto
+}
+
+#carruselAvisosImp-movil .carousel-control-next {
+    right: 0
+}
+
+#carruselAvisosImp-movil .carousel-indicators {
+    display: none
+}
+
+.secMaestrias {
+    position: relative;
+    width: 100%;
+    color: #fff;
+    overflow: hidden
+}
+
+.secMaestrias .container-fluid {
+    position: relative;
+    height: 100%;
+    z-index: 999
+}
+
+.secMaestrias .row {
+    height: 100%
+}
+
+.secMaestrias .relleno {
+    padding-top: 0;
+    padding-bottom: 0
+}
+
+.secMaestrias .info {
+    padding-top: 30px;
+    padding-bottom: 30px
+}
+
+.secMaestrias .bgPoligonal {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(https://unapec.edu.do/media/1423/bg-figuras-maestria.png) no-repeat 0
+}
+
+.secMaestrias .bloqueBoton {
+    align-self: flex-end;
+    text-align: right
+}
+
+.secMaestrias .info h2 {
+    font-size: 30px;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-bottom: 30px
+}
+
+.secMaestrias .info h2 span {
+    font-weight: 700
+}
+
+.secMaestrias .info div {
+    position: relative;
+    width: 100%;
+    font-size: 18px;
+    background-color: #0058a6;
+    padding: 25px;
+    box-shadow: 2px 2px 50px rgba(0, 0, 0, .4)
+}
+
+.secMaestrias .sombra {
+    position: absolute;
+    top: 0;
+    left: -500px;
+    display: block;
+    width: 500px;
+    height: 100%;
+    background: #00203c;
+    box-shadow: 0 0 50px rgba(0, 0, 0, .3)
+}
+
+.secMaestrias .boton {
+    display: inline-block;
+    padding: 15px 75px 15px 25px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 15px;
+    background: url(https://unapec.edu.do/media/1446/icn-abrir.png) no-repeat 100% 0
+}
+
+.secMaestrias .boton:hover {
+    color: #fff;
+    text-decoration: none
+}
+
+@media(min-width:768px) {
+    .secMaestrias {
+        background: #034683 url(https://unapec.edu.do/media/1451/bg-maestria.jpg) no-repeat top
+    }
+    .secMaestrias .boton {
+        padding: 35px 75px 35px 25px
+    }
+    .secMaestrias .bgPoligonal {
+        width: 50%;
+        background-position: 100% 0
+    }
+}
+
+@media(min-width:992px) {
+    .secMaestrias {
+        background-position: 100%;
+        background-size: cover
+    }
+    .secMaestrias .info {
+        padding-top: 60px;
+        padding-bottom: 60px
+    }
+    .secMaestrias .bgPoligonal {
+        width: 50%;
+        background-position: 100%
+    }
+    .secMaestrias .info h2 {
+        font-size: 40px
+    }
+    .secMaestrias .info h2 span {
+        font-size: 53px
+    }
+    .secMaestrias .info div {
+        width: 516px;
+        font-size: 22px
+    }
+    .secMaestrias .boton {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        padding: 40px 75px 40px 25px;
+        font-size: 17px
+    }
+}
+
+.secNoticias {
+    position: relative;
+    padding: 88px 0;
+    overflow: hidden;
+    border-bottom: 6px solid #fff
+}
+
+.secNoticias .container-fluid {
+    position: relative;
+    z-index: 999
+}
+
+.secNoticias h2.encab {
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #333;
+    font-weight: 300;
+    margin-bottom: 30px
+}
+
+.secNoticias .bloqueBoton {
+    align-self: flex-end;
+    text-align: right
+}
+
+.secNoticias .rs-carousel-action-next,
+.secNoticias .rs-carousel-action-prev {
+    position: absolute;
+    bottom: 0;
+    margin-top: -38px;
+    width: 50px;
+    height: 50px;
+    text-indent: -2000px;
+    overflow: hidden;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, .7);
+    opacity: .1
+}
+
+.secNoticias .rs-carousel-action-active {
+    opacity: 1
+}
+
+.secNoticias .noticia {
+    width: 100%;
+    background-color: #0058a6;
+    display: flex
+}
+
+.noticia .info {
+    width: 50%;
+    height: 100%;
+    padding: 10px 15px
+}
+
+.secNoticias .boton {
+    display: inline-block;
+    padding: 20px 75px 20px 25px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 15px;
+    background: url(https://unapec.edu.do/media/1446/icn-abrir.png) no-repeat 100% 0
+}
+
+.noticia p {
+    font-size: 11px;
+    font-weight: 300;
+    color: #dde4ef;
+    margin: 0
+}
+
+.noticia h2 {
+    font-size: 13px;
+    font-weight: 400;
+    margin: 10px 0 5px;
+    line-height: 1.2
+}
+
+.noticia h2 a {
+    text-decoration: none
+}
+
+.noticia a {
+    color: #fff
+}
+
+.noticia a.leer {
+    text-transform: uppercase;
+    color: #dde4ef;
+    font-weight: 400;
+    font-size: 11px
+}
+
+.noticia .imagen {
+    position: relative;
+    width: 50%;
+    height: 100%
+}
+
+.noticia .imagen img {
+    width: 100%
+}
+
+.secNoticias span.espejo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    background-position: 50%;
+    background-size: cover;
+    z-index: 0
+}
+
+.noticia .flecha {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    margin-top: -15px;
+    display: block;
+    width: 15px;
+    height: 30px;
+    z-index: 999;
+    background: url(https://unapec.edu.do/media/1420/flecha-noticia.png) no-repeat 50%
+}
+
+.secNoticias .evento {
+    width: 100%;
+    height: 100%;
+    min-height: 170px;
+    background-color: #0d345f;
+    display: flex
+}
+
+.evento .info {
+    width: 50%;
+    height: 100%;
+    padding: 10px
+}
+
+.evento p {
+    font-size: 14px;
+    font-weight: 700;
+    margin: 0;
+    color: #fff;
+    text-transform: uppercase
+}
+
+.evento h2 {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0 0 5px;
+    line-height: 1.2
+}
+
+.evento h2 a {
+    text-decoration: none;
+    color: #fff
+}
+
+.evento a.leer {
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #dde4ef;
+    font-weight: 400
+}
+
+.evento .fecha {
+    position: relative;
+    display: flex;
+    width: 50%;
+    height: 100%;
+    min-height: 170px;
+    color: #fff
+}
+
+.evento.seminario .fecha {
+    background: url(https://unapec.edu.do/media/1417/seminario.jpg) no-repeat 50%;
+    background-size: cover
+}
+
+.evento.conferencia .fecha {
+    background: url(https://unapec.edu.do/media/1415/conferencia.jpg) no-repeat 50%;
+    background-size: cover;
+    justify-content: flex-end
+}
+
+.evento .fecha .flecha {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-top: -14px;
+    width: 14px;
+    height: 28px;
+    background: url(https://unapec.edu.do/media/1416/flecha-evento.png) no-repeat 50%
+}
+
+.evento .fecha table {
+    border-collapse: separate;
+    width: 95%;
+    align-self: center
+}
+
+.evento .fecha .dia {
+    background: rgba(0, 0, 0, .5);
+    font-size: 11px;
+    line-height: 1.5em;
+    text-align: center;
+    padding: 5px 5px 5px 15px
+}
+
+.evento .fecha .dia span {
+    font-size: 20px;
+    font-weight: 700
+}
+
+.evento .fecha .hora,
+.evento .fecha .lugar {
+    background: rgba(0, 0, 0, .5);
+    font-size: 12px;
+    padding: 5px;
+    line-height: 1.2em
+}
+
+.secNoticias .rs-carousel-action-prev {
+    right: 66px;
+    background-image: url(https://unapec.edu.do/media/1407/flecha-carrusel-anterior.png)
+}
+
+.secNoticias .rs-carousel-action-next {
+    right: 15px;
+    background-image: url(https://unapec.edu.do/media/1408/flecha-carrusel-siguiente.png)
+}
+
+.noticia.puntos-suspensivos h2 {
+    position: relative;
+    overflow: hidden;
+    max-height: 75px
+}
+
+.noticia.puntos-suspensivos h2::after {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100px;
+    content: "...";
+    color: #fff;
+    text-align: center;
+    background: #0c4e98;
+    background: linear-gradient(90deg, rgba(12, 78, 152, 0) 0, #0058a6 34%)
+}
+
+@media(max-width:575px) {
+    .secNoticias .rs-carousel-action-next {
+        right: 15px
+    }
+    .secNoticias .rs-carousel-action-next,
+    .secNoticias .rs-carousel-action-prev {
+        top: auto;
+        bottom: -50px!important;
+        background-color: #000;
+        width: 50px;
+        height: 50px
+    }
+    .secNoticias .rs-carousel-action-prev {
+        left: auto;
+        right: 66px
+    }
+}
+
+@media(min-width:576px) {
+    .secNoticias {
+        padding: 70px 0
+    }
+    .secNoticias .correaCarrusel {
+        min-height: 300px
+    }
+    .secNoticias .rs-carousel-action-next,
+    .secNoticias .rs-carousel-action-prev {
+        top: 50%;
+        width: 75px;
+        height: 75px
+    }
+    .secNoticias .rs-carousel-action-prev {
+        left: 0
+    }
+    .secNoticias .rs-carousel-action-next {
+        right: 0
+    }
+    .secNoticias h2.encab {
+        font-size: 50px;
+        margin-bottom: 50px
+    }
+    .secNoticias .noticia {
+        width: 528px
+    }
+    .noticia.puntos-suspensivos h2 {
+        max-height: 133px
+    }
+    .noticia .info {
+        padding: 15px 15px 0
+    }
+    .noticia p {
+        font-size: 17px
+    }
+    .noticia h2 {
+        font-size: 18px;
+        margin: 15px 0;
+        line-height: 1.3
+    }
+    .noticia a.leer {
+        font-size: 15px
+    }
+    .secNoticias .evento {
+        width: 528px;
+        height: 200px
+    }
+    .evento .info {
+        padding: 15px 15px 0
+    }
+    .evento p {
+        font-size: 20px
+    }
+    .evento h2 {
+        font-size: 17px;
+        margin: 0 0 20px;
+        line-height: 1.5
+    }
+    .evento a.leer {
+        font-size: 13px
+    }
+    .evento .fecha .dia {
+        font-size: 20px
+    }
+    .evento .fecha .dia span {
+        font-size: 35px
+    }
+    .evento .fecha .hora,
+    .evento .fecha .lugar {
+        font-size: 14px;
+        padding: 3px 10px;
+        height: 60px
+    }
+}
+
+@media(min-width:992px) {
+    .secNoticias a.boton {
+        position: absolute;
+        bottom: 0;
+        right: 0
+    }
+}
+
+@media(min-width:1200px) {
+    .secNoticias {
+        padding: 100px 0
+    }
+    .secNoticias .correaCarrusel {
+        min-height: 500px
+    }
+    .secNoticias .noticia {
+        width: 824px
+    }
+    .noticia.puntos-suspensivos h2 {
+        max-height: 179px
+    }
+    .noticia .info {
+        padding: 30px 30px 25px
+    }
+    .noticia p {
+        font-size: 17px;
+        margin: 0 0 10px
+    }
+    .noticia h2 {
+        font-size: 24px;
+        margin: 40px 0 30px;
+        line-height: 1.5
+    }
+    .noticia a.leer {
+        font-size: 17px
+    }
+    .secNoticias .evento {
+        width: 824px;
+        height: 261px
+    }
+    .evento .info {
+        padding: 40px 39px 25px
+    }
+    .evento p {
+        font-size: 24px
+    }
+    .evento h2 {
+        font-size: 22px
+    }
+    .evento a.leer {
+        font-size: 15px
+    }
+    .evento .fecha .dia {
+        font-size: 30px
+    }
+    .evento .fecha .dia span {
+        font-size: 50px
+    }
+    .evento .fecha .hora,
+    .evento .fecha .lugar {
+        font-size: 17px;
+        padding: 3px 15px 3px 25px
+    }
+    .sombraFondo {
+        position: absolute;
+        bottom: 0;
+        left: 60px;
+        width: 100%;
+        height: 50%;
+        background: #eaedf1;
+        z-index: 0
+    }
+}
+
+.secAcred {
+    width: 100%;
+    padding: 50px 0 70px;
+    background: url(https://unapec.edu.do/media/1422/bg-seccion.jpg) no-repeat top;
+    background-size: cover
+}
+
+.secAcred .relleno-bloque {
+    position: relative;
+    margin-right: 15px
+}
+
+.secAcred .relleno {
+    position: relative;
+    margin: 0 15px;
+    width: auto
+}
+
+.secAcred .skew {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 8px solid #fff;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    z-index: 0;
+    box-sizing: border-box;
+    background: url(https://unapec.edu.do/media/1430/bg-poligonos.png) 50% no-repeat
+}
+
+.secAcred .texto {
+    position: relative;
+    z-index: 999;
+    padding: 50px 25px 20px;
+    color: #e6eff8;
+    text-align: justify
+}
+
+.secAcred .texto h2 {
+    color: #e6eff8;
+    text-transform: uppercase;
+    text-align: left;
+    font-weight: 300;
+    font-size: 33px;
+    line-height: .7em;
+    margin-bottom: 40px
+}
+
+.secAcred .texto h2 span {
+    font-weight: 700;
+    font-size: 18px;
+    color: #fff
+}
+
+.secAcred .boton {
+    display: block;
+    background: #e32726;
+    font-size: 17px;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    padding: 18px 20px;
+    margin: 0 25px 50px
+}
+
+.secAcred .boton:hover {
+    text-decoration: none;
+    background-color: #b6201f
+}
+
+@media(min-width:992px) {
+    .secAcred {
+        min-height: 300px;
+        padding: 160px 0;
+        font-size: 15px
+    }
+    .secAcred .row {
+        justify-content: space-between
+    }
+    .secAcred .relleno {
+        margin: 0
+    }
+    .secAcred .bg-jovenes {
+        background: url(https://unapec.edu.do/media/1726/bg-jovenes.jpg) repeat-x 100%;
+        background-size: auto 100%
+    }
+    .secAcred .tira {
+        border-top: 15px solid #fff;
+        border-bottom: 15px solid #fff
+    }
+    .secAcred .skew {
+        width: 46%;
+        box-sizing: content-box;
+        height: 100%;
+        padding: 50px 0;
+        margin: -65px 0 0 15px;
+        border: 15px solid #fff;
+        -ms-transform: skewY(4deg);
+        -webkit-transform: skewY(4deg);
+        transform: skewY(4deg)
+    }
+    .secAcred .row div+div {
+        display: flex;
+        justify-content: flex-end
+    }
+    .secAcred .texto {
+        padding: 25px 30px;
+        margin-left: 25px;
+        min-height: 100%
+    }
+    .secAcred .boton {
+        font-size: 24px;
+        padding: 30px 50px;
+        margin: 50px 0 65px;
+        align-self: flex-end
+    }
+    .secNoticias a.boton {
+        position: absolute;
+        bottom: 0;
+        right: 15px
+    }
+}
+
+@media(min-width:1200px) {
+    .secAcred .skew {
+        width: 38%
+    }
+    .secAcred .texto h2 {
+        font-size: 43px
+    }
+    .secAcred .texto h2 span {
+        font-size: 22px
+    }
+}
+
+@media(min-width:1600px) {
+    .secAcred .skew {
+        width: 35%;
+        margin-left: 120px
+    }
+    .secAcred .texto h2 {
+        font-size: 53px
+    }
+    .secAcred .texto h2 span {
+        font-size: 28px
+    }
+}
+
+@media(min-width:1600px) {
+    .container-fluid.relleno {
+        padding: 0 120px
+    }
+    .container-fluid.relleno-derecha {
+        padding: 0 120px 0 0
+    }
+    .container-fluid.relleno-izquierda {
+        padding: 0 0 0 120px
+    }
+}
+
+h2.encab span {
+    font-weight: 700
+}
